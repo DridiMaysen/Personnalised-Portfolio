@@ -1,0 +1,209 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9b4c44b6e5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">CERTIFICATIONS</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>IT Student</p>
+                <h1>Hi, I'm <span>Mayssen</span> <br>Dridi From Tunisia</h1>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/about-me.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <h3> I’m Mayssen Dridi,21 years old, and I’m currently pursuing a degree in Business Intelligence at Faculty of Economic Sciences and Management of Nabeul . My passion lies at the intersection of data analysis, business strategy, and technology, which is why I chose to specialize in Business Intelligence. I am fascinated by how data can drive business decisions, uncover insights, and contribute to operational improvements.
+                    </h3>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span><h3>Web Development</h3></span><br>Web App Development using HTML,CSS,BOOTSTRAP,PHP,LARAVEL <br>
+                            </li>
+                            <li><span><h3>Data analysis</h3></span><br>Analyse and visualize data using Power Bi,Excel,SQL <br>
+                            </li>
+                            <li><span><h3>Programming</h3></span><br>programming with Python ,C,C++,JAVA <br></li>
+                            <li><span><h3>App Development</h3></span><br>Application Development using java <br></li>
+                            <li><span><h3>AI and Machine Learning</h3></span><br>Basics of Machine Learning ,Analyse  data using TensorFlow,SckitLearn,Python <br></li>
+                            <li><span><h3>Security and Cloud Computing</h3></span><br>Docker</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                        <li><span><h3>2024-2025</h3></span><br>Internship at Numedia Company (1month): <br> I develop a whole java Application to manage users, products,admins,suppliers...  <br></li>
+                    </ul></div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                        <li><span><h3>2022-Current</h3></span><br> Major Business Intelligence Student  at Faculty of Economic Sciences and Management of Nabeul 
+                        <br></li>
+                        <li><span><h3>2021-2022</h3></span><br> Mathematics Baccalaureate with honors 
+                            <br></li></ul>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Certifications</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-regular fa-window-maximize"></i>
+                <h2>PowerPoint 2019 Associate</h2>
+                <p>The Microsoft Office Specialist (MOS) PowerPoint 2019 Associate certification validates your skills and expertise in using Microsoft PowerPoint 2019 to create, manage, and deliver presentations effectively. This certification is ideal for individuals who need to demonstrate proficiency in the core functions of PowerPoint, including slide creation, formatting, multimedia integration, and presentation delivery tools.</p>
+                <a href="image/certifpower.pdf">Learn More</a>
+            </div>
+            <div >
+                <i class="fa-solid fa-code"></i>
+                <h2>Word 2019 Associate</h2>
+                <p>The Microsoft Office Specialist (MOS) Word 2019 Associate certification is a credential that demonstrates an individual's proficiency in using Microsoft Word 2019, focusing on essential features and tasks within the word processing software. This certification is recognized globally and is aimed at individuals who want to showcase their skills and knowledge in Microsoft Word, which is commonly used in professional and academic environments.</p>
+                <a href="image/certif word.pdf">Learn More</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/siteweb.png" alt="">
+                <div class="layer">
+                    <h3>E-commerce Web-site</h3>
+                    <p>This Web-site let you shop for products from a wide range of categories </p>
+                    <a href="https://github.com/DridiMaysen/projet-MVC-Php"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/application.png" alt="">
+                <div class="layer">
+                    <h3>Desktop Application</h3>
+                    <p>This application helps you to manage users, admins,suppliers and products </p>
+                    <a href="https://github.com/DridiMaysen/DesktopApplication"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/powerbi.png" alt="">
+                <div class="layer">
+                    <h3>Powerbi Project</h3>
+                    <p>This Web-site let you shop for products from a wide range of categories </p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn">See more</a>
+
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>dridimaysen301@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>28466780</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/mayssen-dridi-711b2b2a1/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/dridimaysen/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/DridiMaysen"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="" download class="btn btn2">Download CV</a>
+
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet'">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textArea name="Message" rows="6" placeholder="Your Message"></textArea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © M .Made with <i class="fa-solid fa-heart"></i> by Mayssen Dridi</p>
+    </div>
+</div>
+
+
+
+
+
+
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxKRa08Zy97gsMz4QCgRTUgwO4iHCdruat4G2x3Ra4ooDFx0nGRXmEIIbmqCKCAmP8XSw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML="Message Sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
